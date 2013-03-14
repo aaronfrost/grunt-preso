@@ -1,0 +1,49 @@
+#home, .grunt-font {
+  font-family: font-family: 'Lato',sans-serif;
+  color: #473015;
+  font-weight:bold;
+}
+.red{
+  color:red;
+}
+#home img{
+  width: 300px;
+}
+#home h1{
+  font-size: 100px;
+  width: 100%;
+  padding-top: 20px;
+  font-weight: bold;
+}
+#home p{
+  padding-top:25px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.h1{
+  font-size: 80px;
+}
+.agenda.future{
+  display: none;
+}
+#agenda1, .agenda{
+  color: black;
+}
+.what.past, .what.future{
+  visibility: hidden;
+}
+.what.active, .what.past.active, .what.future.active{
+  visibility: visible;
+}
+
+#what6.future,#what7.future,#what8.future{
+  display:none;
+}
+#what6.future.active,#what7.future.active,#what8.future.active{
+  display:normal;
+}
+#what7{
+  font-size:40px;
+}
+
